@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tactic_pref>
+<pref_unit pref_key="prp_1">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_2">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_3">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_4">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_5">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_6">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_7">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prp_8">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="set_4">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.forallGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.existsHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.typeRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.onePointGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.onePointHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.InDomGoalTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="set_3">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.forallGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.existsHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.typeRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.rmiGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.rmiHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.onePointGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.onePointHypTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="set_2">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.forallGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.existsHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.typeRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.rmiGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.rmiHypTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="set_1">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.forallGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.existsHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.typeRewriteTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prd_1">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prd_2">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.forallGoalTac"/>
+</combined>
+</pref_unit>
+<pref_unit pref_key="prd_3">
+<combined combinator_id="org.eventb.core.seqprover.loopOnAllPending" tactic_id="org.eventb.core.seqprover.loopOnAllPending.combined">
+<simple tactic_id="org.eventb.core.seqprover.goalInHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.impGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.conjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.findContrHypsTac"/>
+<simple tactic_id="org.eventb.core.seqprover.genMPTac"/>
+<simple tactic_id="org.eventb.core.seqprover.autoRewriteTac"/>
+<simple tactic_id="org.eventb.core.seqprover.trueGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.falseHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.DisjGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.NNFTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.eqvHypTac"/>
+<simple tactic_id="org.eventb.core.seqprover.forallGoalTac"/>
+<simple tactic_id="org.eventb.core.seqprover.existsHypTac"/>
+</combined>
+</pref_unit>
+</tactic_pref>
